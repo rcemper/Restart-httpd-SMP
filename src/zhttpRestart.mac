@@ -1,0 +1,14 @@
+ROUTINE zhttpRestart
+zhttpRestart	;
+	new   ; adjust for win or *X
+	if $zversion(1)=2 set slash="\",exe=".exe"
+	else  set slash="/",exe=""
+	set hdir=$system.Util.InstallDirectory()_"httpd"_slash
+		,port=^%SYS("WebServer","Port")	 ;webserver port
+		,cmd=hdir_"bin"_slash_"httpd"_exe
+			_" -d "_hdir
+			_" -f "_hdir_"conf"_slash_"httpd.conf"
+			_" -c ""Listen "_port_""""
+	do $ZF(-2,cmd)
+	open 1 use 1 Write slash_"httpd for SMP restarted manually"_slash close 1
+	quit 
