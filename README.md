@@ -11,6 +11,4 @@ The only limit is the lack of enough privileges to start httpd.
 [Demo Server WebTerminal](https://restart-httpd.demo.community.intersystems.com/terminal/)    
         
 **Code Quality**   
-<img width="85%" src="
-https://openexchange.intersystems.com/mp/img/packages/671/screenshots/4bh7tyapellnv0cjgw34riapcfo.jpg
-">
+<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1774/screenshots/5rxvdvlgu5y9obag2iwhhelk5bs.jpg">
