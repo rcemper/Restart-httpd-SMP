@@ -6,9 +6,3 @@ The only limit is the lack of enough privileges to start httpd.
 ( e.g with docker images)  
 
 [Article in DC](https://community.intersystems.com/post/how-restart-smp-server)
-
-[Demo Server SMP](https://restart-httpd.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
-[Demo Server WebTerminal](https://restart-httpd.demo.community.intersystems.com/terminal/)    
-        
-**Code Quality**   
-<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1774/screenshots/5rxvdvlgu5y9obag2iwhhelk5bs.jpg">
